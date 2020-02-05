@@ -1,0 +1,92 @@
+/*@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css')*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,700&display=swap');
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #1D2D44;
+  font-size: 2.2em;
+  font-weight: 700;
+  margin: 20px 15px 0 15px;
+}
+
+h2 {
+  color: #003D5B;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 5px 15px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #003D5B;
+  font-weight: 400;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+  border: solid white 1px;
+  margin: 15px 0;
+}
+
+a {
+  color: #1D2D44;
+  text-decoration: none;
+  transition: ease color 1s;
+}
+
+a:hover {
+  color : #4C243B;
+}
+
+.btn {
+  background-color: #4C243B;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px
+}
+
+.btn:hover {
+  background-color: #1D2D44;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  font-size: 2.2em;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
